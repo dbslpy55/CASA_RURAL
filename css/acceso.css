@@ -1,0 +1,60 @@
+section.acceso {
+  padding: 80px 0;
+  background-color: #f1f1f1;
+}
+
+section.acceso h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #198754;
+}
+
+section.acceso .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+section.acceso .col-md-4 {
+  flex: 1;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+section.acceso .col-md-4:hover {
+  transform: translateY(-5px);
+}
+
+section.acceso .icono {
+  font-size: 4rem;
+  color: #198754;
+  margin-bottom: 20px;
+}
+
+section.acceso .descripcion {
+  padding: 20px;
+}
+
+section.acceso .descripcion h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+section.acceso .descripcion p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+section.acceso .btn {
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #198754;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+section.acceso .btn:hover {
+  background-color: #155d41;
+}

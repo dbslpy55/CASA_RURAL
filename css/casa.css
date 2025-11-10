@@ -1,0 +1,71 @@
+/* === ESTILOS GENERALES DE LA PÁGINA CASA === */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+section.bg-light {
+  background-color: #f8f9fa;
+}
+/* === SECCIÓN PARTES DE LA CASA === */
+section.partes-casa {
+  padding: 80px 0;
+}
+
+section.partes-casa h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #198754;
+}
+
+section.partes-casa .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+section.partes-casa .col-md-6 {
+  flex: 1;
+  transition: transform 0.3s ease;
+}
+
+section.partes-casa .col-md-6:hover {
+  transform: translateY(-5px);
+}
+
+section.partes-casa img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+section.partes-casa .descripcion {
+  padding: 20px;
+}
+
+section.partes-casa .descripcion h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+section.partes-casa .descripcion p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+section.partes-casa .btn {
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #198754;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+section.partes-casa .btn:hover {
+  background-color: #155d41;
+}
